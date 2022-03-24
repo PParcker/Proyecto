@@ -6,13 +6,12 @@
 body{
     font-family: 'PT Sans', sans-serif;
     display: flex;
-    align-items: initial;
     justify-content: center;
     height: 100vh;
     background: linear-gradient(#FF5B55, #FF8C00);
 }
 .buscar{
-    position: absolute;
+    position: fixed;
     padding: 5px;
 }
 .buscar input{
