@@ -13,9 +13,9 @@ body{
     margin: 10px;
     border: 2px;
     float: left;
-    width: 450px;
-    margin: 40px 50px;
-    position: absolute;
+    width: 8000px;
+    margin: 10px 10px;
+    position: left;
     z-index: 10;
 }
 
