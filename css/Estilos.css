@@ -13,6 +13,7 @@ body{
 .buscar{
     position: fixed;
     padding: 5px;
+    z-index: 20;
 }
 .buscar input{
     width: 0px;
