@@ -9,12 +9,18 @@ body{
 
 /* Estilos para el ícono del Menú */
 .icono-menu{
+    padding: 10px;
+    margin: 10px;
+    border: 2px;
+    float: left;
+    width: 450px;
     margin: 40px 50px;
-    position: relative;
+    position: absolute;
     z-index: 10;
 }
 
 .icono-menu img{
+    float: left;
     vertical-align: top;
     width: 40px;
     cursor: pointer;
