@@ -62,5 +62,17 @@ body{
     background-color: rgb(228,228,228);
     color: rgb(42,42,42);
 }
-
+/* Estilos para el boton de ayuda */
+.button{
+    background:#7f8c8d;
+    color: #ffff;
+    display: inline-block;
+    font-size:1.25em;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0px 3px 0px #373c3c;
+}
 
