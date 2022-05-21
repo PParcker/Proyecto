@@ -12,11 +12,12 @@ body{
     padding: 1px;
     margin: 20px;
     border: 2px;
+    height: 20px;
     float: left;
     width: 8000px;
     margin: 10px 10px;
     position: left;
-    z-index: 1;
+    z-index: 5;
 }
 
 .icono-menu img{
