@@ -31,7 +31,7 @@ body{
 .cont-menu{
     background-color: rgb(42,42,42);
     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
-    width: 400px;
+    width: 250px;
     height: 100vh;
     position: absolute;
     top: 0;

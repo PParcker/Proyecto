@@ -16,3 +16,8 @@ iconoMenu.addEventListener('click', (e) => {
         e.target.setAttribute('src','img/open-menu.png');
     }
 });
+function close_tab() {
+    if (confirm("Do you want to close this tab?")) {
+      window.close();
+    }
+}
