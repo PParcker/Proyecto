@@ -52,7 +52,8 @@ body{
 
 .boton-ayuda{
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    left: 98%;
     margin: 10px;
     z-index: 20;  
 }
@@ -66,6 +67,8 @@ li {
 }
 .Materia{
     position: relative;
+    top: -10%;
+    right: 25%;
     float: left;
     width: 100%;
     display: flex;
@@ -73,6 +76,7 @@ li {
     align-items: center;
     height: 100hv;
 }
+
 .Materia figure{
     position: fixed;
     height: 200px;
