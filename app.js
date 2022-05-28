@@ -17,7 +17,7 @@ iconoMenu.addEventListener('click', (e) => {
     }
 });
 function close_tab() {
-    if (confirm("Do you want to close this tab?")) {
+    if (confirm("¿Seguro deseas salir de la aplicación?")) {
       window.close();
     }
 }
