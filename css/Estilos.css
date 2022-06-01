@@ -11,23 +11,6 @@ body{
     height: 100vh;
     background-color: #0aaec8;
 }
-.buscar{
-    position: absolute;
-    top: 10px;
-    padding: 5px;
-    z-index: 20;
-}
-.buscar input{
-    width: 0px;
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: black;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
-}
 .btn{
     position: absolute;
     top: 0;
@@ -43,13 +26,6 @@ body{
     
     /*visibility: hidden;*/
 }
-.buscar:hover input{
-    width: 240px;
-}
-.buscar input:focus{
-    width: 240px;
-}
-
 .boton-ayuda{
     cursor: pointer;
     position: absolute;
@@ -76,7 +52,6 @@ li {
     align-items: center;
     height: 100hv;
 }
-
 .Materia figure{
     position: fixed;
     height: 200px;
