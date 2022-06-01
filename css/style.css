@@ -14,7 +14,6 @@ body{
     border: 2px;
     height: 20px;
     float: left;
-    width: 8000px;
     margin: 10px 10px;
     position: left;
     z-index: 5;
@@ -30,7 +29,7 @@ body{
 /* Estilos para el contenedor del Menú */
 .cont-menu{
     background-color: rgb(42,42,42);
-    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    box-shadow: 2px 0px 5px 2px rgb(255, 255, 255);
     width: 250px;
     height: 100vh;
     position: absolute;
@@ -77,4 +76,3 @@ body{
     text-decoration: none;
     box-shadow: 0px 3px 0px #373c3c;
 }
-

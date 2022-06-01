@@ -9,7 +9,25 @@ body{
     align-items: initial;
     justify-content: center;
     height: 100vh;
-    background-color: #0aaec8;
+    background-image: url("../css/Fondo3.gif");
+    background-size: cover;
+}
+.buscar{
+    position: absolute;
+    top: 10px;
+    padding: 5px;
+    z-index: 20;
+}
+.buscar input{
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
 }
 .btn{
     position: absolute;
@@ -26,6 +44,13 @@ body{
     
     /*visibility: hidden;*/
 }
+.buscar:hover input{
+    width: 240px;
+}
+.buscar input:focus{
+    width: 240px;
+}
+
 .boton-ayuda{
     cursor: pointer;
     position: absolute;
@@ -44,7 +69,7 @@ li {
 .Materia{
     position: relative;
     top: -10%;
-    right: 25%;
+    right: 10%;
     float: left;
     width: 100%;
     display: flex;
@@ -52,6 +77,7 @@ li {
     align-items: center;
     height: 100hv;
 }
+
 .Materia figure{
     position: fixed;
     height: 200px;
@@ -101,4 +127,21 @@ li {
     position: absolute;
     top: 25%;
     right: 40%;
+}
+
+.titulo {
+    position: relative;
+    font-family: "Comic Sans MS",arial,verdana;
+    font-size: 200%;
+    color: white;
+    right: -10%;
+}
+
+.subtitulo {
+    position: absolute;
+    top: 20%;
+    right: 71%;
+    font-family: "Comic Sans MS",arial,verdana;
+    font-size: 150%;
+    color: cornsilk;
 }

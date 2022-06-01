@@ -10,10 +10,10 @@ iconoMenu.addEventListener('click', (e) => {
     // Alternamos su atributo 'src' para el ícono del menú
     const rutaActual = e.target.getAttribute('src');
 
-    if(rutaActual == 'img/open-menu.png'){
+    if(rutaActual == 'img/open-menu2.png'){
         e.target.setAttribute('src','img/open-menu2.png');
     }else{
-        e.target.setAttribute('src','img/open-menu.png');
+        e.target.setAttribute('src','img/open-menu2.png');
     }
 });
 function close_tab() {
